@@ -1,4 +1,4 @@
-import { Context } from "../lib"
+import { Context } from "../src"
 
 
 export interface TState{

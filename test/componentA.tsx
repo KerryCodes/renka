@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getRenkaState, initRenkaState, useActivateState } from '../lib'
+import { getRenkaState, initRenkaState, useActivateState } from '../src'
 
 
 export function Aa(props:React.PropsWithoutRef<{count:number, setCount:any}>){

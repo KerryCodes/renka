@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
-import { getRenkaState, useActivateState } from '../lib'
+import { getRenkaState, useActivateState } from '../src'
 import { Aa } from './componentA'
 import { TContext } from './state'
 
@@ -20,7 +19,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <div>
           <button type="button" onClick={() => setCount((count) => count + 1)}>

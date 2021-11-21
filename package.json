@@ -1,9 +1,25 @@
 {
   "name": "renka",
   "version": "0.0.0",
+  "private": false,
+  "description": "A super lightweight react state manager!",
+  "files": ["lib/"],
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KerryCodes/renka.git"
+  },
+  "keywords": ["react", "state"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KerryCodes/renka/issues"
+  },
+  "homepage": "https://github.com/KerryCodes/renka#readme",
+  "author": "974381983@qq.com",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
+    "tsc": "tsc",
     "serve": "vite preview"
   },
   "dependencies": {
