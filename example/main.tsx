@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
-import { createRenkaState } from '../lib'
-import { initState } from './state'
+import App from './app'
+import { createRenkaState } from '../src'
+import { initState } from './app/state'
 
 
 createRenkaState(initState)

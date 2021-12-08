@@ -15,5 +15,5 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["src", "lib/index.ts"]
+  "include": ["src", "src/index.ts", "example/counter", "example/app/App.tsx", "example/vite-env.d.ts", "example/main.tsxexample/app/state.tse.ts", "example/componentA.tsx"]
 }
