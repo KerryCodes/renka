@@ -7,16 +7,17 @@ import { Counter } from '../counter'
 import { Child } from '../child'
 
 
-function App() {
+export default function App() {
   const ctx= getRenkaState<TContext>()
   const { appValue }= useActivateState(() => ({
     appValue: ctx.state.appValue,
   }))
 
-  console.log('App组件更新！');
+  console.log('App组件更新！')
   
   return (
     <div className="App">
+      <div>renka,一个超轻量级的响应式React状态管理器</div>
       <img src={logo} className="App-logo" alt="logo" />
       <div className="row">
         <button className="button" onClick={() => ctx.state.appValue++ }>
@@ -35,5 +36,3 @@ function App() {
     </div>
   )
 }
-
-export default App

@@ -22,5 +22,5 @@ export function Counter() {
         </button>
       </div>
     </div>
-  );
+  )
 }

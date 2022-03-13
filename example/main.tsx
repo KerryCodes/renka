@@ -7,4 +7,5 @@ import { initState } from './app/state'
 
 createRenkaState(initState)
 
+
 ReactDOM.render(<App />, document.getElementById('root'))
